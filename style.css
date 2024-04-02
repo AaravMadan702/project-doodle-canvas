@@ -1,0 +1,25 @@
+body{
+    background-color: chartreuse;
+}
+
+#doodle{
+    float: right;
+}
+p{
+    margin: 10px;
+    font-size: 20px;
+}
+canvas
+{
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: eg;
+    animation-duration: 5s;
+    margin-top: 100px;
+    animation-iteration-count: infinite;
+   animation-direction: alternate-reverse;
+}
+@keyframes eg{
+    from{box-shadow: 15px 10px 20px aqua;}
+    to{box-shadow: 15px 10px 20px rgb(118, 103, 255);}
+}
